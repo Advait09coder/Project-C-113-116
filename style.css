@@ -1,0 +1,19 @@
+body{
+    background-size: contain;
+}
+
+h3{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 50px;
+}
+
+canvas{
+    animation-name: RGB;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes RGB{
+    from{box-shadow: 1px 1px 38px cyan;}
+    to{box-shadow: 1px 1px 38px red;}
+}
